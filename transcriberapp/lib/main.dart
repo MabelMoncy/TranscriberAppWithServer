@@ -91,7 +91,7 @@ class _AudioTranscriberPageState extends State<AudioTranscriberPage> {
   // --- State Variables ---
 
   // FIXME: Add your Gemini API key here
-  final String _geminiApiKey = "AIzaSyAaP8FLRFr5Gv73FHxGdJI34sX9uKPIWVE";
+  final String _geminiApiKey = "********************";
 
   AppState _appState = AppState.initial;
   String? _sharedFilePath;
