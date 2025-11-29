@@ -14,7 +14,7 @@ class GeminiService {
     }
 
     final uri = Uri.parse(
-        "https://generativelanguage.googleapis.com/upload/v1beta/files?key=$apiKey");
+        "https://generativelanguage.googleapis.com/upload/v1beta/files?key=$apiKey");//i want to change this to the backend.
 
     var request = http.MultipartRequest('POST', uri);
     request.headers['X-Goog-Upload-Protocol'] = 'multipart';

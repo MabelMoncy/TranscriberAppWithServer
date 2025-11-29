@@ -2,7 +2,7 @@
        <!-- Add permissions here, before <application> tag -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/><!--Change this may ne not needed.Come back and check-->
     
     <application
         android:label="Audio Transcriber"

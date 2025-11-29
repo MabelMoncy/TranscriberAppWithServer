@@ -131,7 +131,7 @@ class _AudioTranscriberPageState extends State<AudioTranscriberPage> {
     });
 
     try {
-      final uploadResponse = await _geminiService!.uploadFile(audioFile, mimeType);
+      final uploadResponse = await _geminiService!.uploadFile(audioFile, mimeType);//change this to dio in production
 
       setState(() {
         _appState = AppState.transcribing;
@@ -141,7 +141,7 @@ class _AudioTranscriberPageState extends State<AudioTranscriberPage> {
       final transcribeResponse = await _geminiService!.generateContent(
         uploadResponse['uri'],
         uploadResponse['mimeType'],
-      );
+      );// also this portion to dio in production
 
       setState(() {
         _transcribedText = transcribeResponse;
