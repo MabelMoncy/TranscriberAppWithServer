@@ -54,7 +54,7 @@ class _AudioTranscriberPageState extends State<AudioTranscriberPage> {
   }
 
   Future<void> _initializeApp() async {
-    const serverUrl = "http://192.168.1.35:8000"; 
+    const serverUrl = "http://192.168.1.34:8000"; 
 
     setState(() {
       _geminiService = GeminiService(serverUrl);

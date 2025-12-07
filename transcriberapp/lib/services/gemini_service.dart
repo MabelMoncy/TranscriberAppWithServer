@@ -18,7 +18,7 @@ class GeminiService {
 
     // 2. Prepare the Multipart Request (The Envelope)
     var request = http.MultipartRequest('POST', uri);
-    
+    request.headers['x-app-secret'] = 'fd612e7e29c48edd0622c12e9462535ea80bea2ac8f1892fe8e421e5b68a01f8';
     // 3. Attach the File
     request.files.add(await http.MultipartFile.fromPath(
       'file',
