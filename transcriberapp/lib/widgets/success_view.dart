@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:share_plus/share_plus.dart';
 
 class SuccessView extends StatelessWidget {
   final String? transcribedText;
@@ -63,6 +64,13 @@ class SuccessView extends StatelessWidget {
                         backgroundColor: Colors.grey.shade100,
                         padding: const EdgeInsets.all(12),
                       ),
+                    ),
+
+                    IconButton(
+                      icon: const Icon(Icons.share_rounded),
+                      onPressed: () {
+                        Share.share(transcribedText ?? "");
+                      },
                     ),
                   ],
                 ),

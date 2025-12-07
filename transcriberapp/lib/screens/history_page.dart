@@ -65,8 +65,16 @@ class _HistoryPageState extends State<HistoryPage> {
     }
   }
 
-  Future<void> _deleteRecord(int id) async {
+  Future<void> _deleteRecord(int id, String filePath) async {
+    //1.Delete the physical file first
+    final file = File(filePath);
+    if (await file.exists()){
+      await file.delete();
+      print("Deleted Audio file");
+    }
+    //2. Delete the database entry
     await DatabaseService.instance.delete(id);
+    //3. Refresh the UI
     _refreshHistory();
   }
 
@@ -150,7 +158,7 @@ class _HistoryPageState extends State<HistoryPage> {
                       // ------------------------------------------
                       trailing: IconButton(
                         icon: const Icon(Icons.delete_outline),
-                        onPressed: () => _deleteRecord(record.id!),
+                        onPressed: () => _deleteRecord(record.id!, record.filePath),
                       ),
                       onTap: () => _showFullTranscription(context, record),
                     ),
