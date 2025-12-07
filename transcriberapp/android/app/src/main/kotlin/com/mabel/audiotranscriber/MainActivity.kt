@@ -1,4 +1,4 @@
-package com.example.transcriberapp
+package com.mabel.transcriberapp
 
 import io.flutter.embedding.android.FlutterActivity
 
