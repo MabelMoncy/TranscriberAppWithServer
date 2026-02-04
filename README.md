@@ -222,22 +222,22 @@ Note: Since free hosting have limits try other backend hosting platforms like ko
 2. Tap the **microphone button** to start recording
 3. Speak clearly
 4. Tap the **stop button** when finished
-5. Wait for transcription (usually 5-30 seconds)
+5. Wait for transcription (usually takes time since server is hosted for free)
 6. View your transcribed text!
 
 ### Uploading Audio Files
 
-1. Tap the **upload button** (folder icon)
-2. Select an audio file from your device
-3. Wait for transcription
-4. View and save the result
+1. Open WhatsApp and choose the voice message you want to transcribe
+2. Long press and share to the app
+3. Click the Start Transcription button
+4. View the transcribed result and you can copy or share it.
 
 ### Managing History
 
 1. Tap the **history button** (clock icon)
 2. View all past transcriptions
-3. Tap any entry to view details
-4. Long-press to delete
+3. Tap any entry to view details. You can View and also hear by taping the play button
+4. For deleting tap the delete button
 
 ---
 
@@ -264,31 +264,6 @@ Note: Since free hosting have limits try other backend hosting platforms like ko
 - **Firebase** - (Optional) for analytics
 
 ---
-
-## 📁 Project Structure
-
-```
-TranscriberAppRepo/
-├── backend/
-│   ├── main.py                 # FastAPI application
-│   ├── requirements.txt        # Python dependencies
-│   ├── .env.example           # Environment template
-│   └── RENDER_DEPLOYMENT.md   # Deployment guide
-│
-├── transcriberapp/
-│   ├── lib/
-│   │   ├── main.dart          # App entry point
-│   │   ├── screens/           # UI screens
-│   │   └── services/          # API & database services
-│   ├── pubspec.yaml           # Flutter dependencies
-│   ├── .env.example           # Environment template
-│   └── DEPLOYMENT_CHECKLIST.md
-│
-└── README.md                  # This file!
-```
-
----
-
 ## 🔐 Security Features
 
 - ✅ Environment-based configuration (no hardcoded secrets)
