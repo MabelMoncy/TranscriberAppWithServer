@@ -187,7 +187,7 @@ flutter build apk --release
 ## 🌐 Deployment
 
 ### Backend Deployment (Render)
-### Note: Since free hosting have limits try other backend hosting platforms like koyeb.com or try by creating a new email id. 
+Note: Since free hosting have limits try other backend hosting platforms like koyeb or try by creating a new email id for render or for other hosting platform you are familiar with. 
 
 1. **Create a Render Account**: [render.com](https://render.com)
 2. **Create a New Web Service**
