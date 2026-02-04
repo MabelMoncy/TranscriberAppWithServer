@@ -49,13 +49,7 @@ This app represents more than technology; it represents the power of using our s
 ---
 
 ## 📸 Demo
-
-> **Note:** Add screenshots of your app here
-
-```
-![TranscriberAppImage](https://github.com/user-attachments/assets/63e69f99-9445-40f8-89d2-885806a310b6)
-
-```
+![TranscriberAppImage](https://github.com/user-attachments/assets/5ac4be04-35dc-4119-91d4-92fd7b92d3ea)
 
 ---
 
