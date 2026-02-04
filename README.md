@@ -1,4 +1,4 @@
-# 🎤 Audio Transcriber App
+# 🎤 Audio Transcriber App - Solution for WhatsApps's unavailable regional Language Transcription
 
 <div align="center">
 
