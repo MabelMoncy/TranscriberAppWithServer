@@ -87,8 +87,8 @@ This app represents more than technology; it represents the power of using our s
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/MabelMoncy/TranscriberAppRepo.git
-cd TranscriberAppRepo
+git clone https://github.com/MabelMoncy/TranscriberAppWithServer.git
+cd TranscriberAppWithServer
 ```
 
 ---
