@@ -10,6 +10,7 @@
 **A powerful, intelligent audio transcription application built with love for accessibility** 💙
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Deployment](#-deployment) • [License](#-license)
+Downlaod the app from here: 
 
 </div>
 
